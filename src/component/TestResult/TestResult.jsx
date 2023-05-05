@@ -1,7 +1,8 @@
 import objTest from "../../dataObj";
 const TestResult = ({ stateResult }) => {
   const types = objTest[0].testQuestions[1];
-  console.log(stateResult);
+  
+  console.log(objTest[0].testQuestions[1]);
   if (stateResult < 10) {
     return <div>{types.typeOne}</div>;
   }
