@@ -1,0 +1,30 @@
+.List {
+  min-width: 200px;
+  width: 30%;
+}
+.Form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid gold;
+  min-height: 70px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.Form:hover {
+  background-color: #ffffffdc;
+}
+
+.Title {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.Description {
+  text-align: justify;
+  margin-left: 10px;
+}

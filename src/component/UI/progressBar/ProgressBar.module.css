@@ -1,0 +1,13 @@
+.progressBarBack {
+  background-color: rgba(196, 196, 196, 0.596);
+  height: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.progressBarFront {
+  background: linear-gradient(90deg, #8a2387, #e94057, #f27121);
+  transition: all, 0.3s;
+  height: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,18 @@
+.buttonOption {
+  width: 100%;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid rgb(145, 145, 145);
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+}
+
+.buttonOption + .buttonOption {
+  margin: 5px 0;
+}
+
+.buttonOption:hover {
+  background-color: rgba(0, 0, 0, 0.041);
+}

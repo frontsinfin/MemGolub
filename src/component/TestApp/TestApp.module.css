@@ -1,0 +1,17 @@
+.Container {
+  padding: 20px;
+  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.Header {
+  display: flex;
+  height: 70px;
+  font-weight: 600;
+  color: black;
+  font-size: 20px;
+}
+.Body {
+  display: flex;
+  height: calc(100% - 70px);
+}

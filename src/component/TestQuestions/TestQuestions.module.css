@@ -1,0 +1,9 @@
+.formQuestion {
+  display: flex;
+  gap: 20px;
+  flex-flow: column;
+}
+.question {
+  font-size: 30px;
+  display: flex;
+}
