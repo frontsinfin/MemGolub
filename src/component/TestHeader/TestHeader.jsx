@@ -4,7 +4,6 @@ import ButtonTile from "../UI/button/ButtonTile/ButtonTile";
 
 const TestHeader = ({ stateRoute }) => {
   const getElementNavbar = (e) => {
-    console.log(e);
   };
 
   const logo = stateRoute.slice(0, 1);

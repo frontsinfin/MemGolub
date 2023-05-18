@@ -3,141 +3,137 @@ const objTest = [
     testTitle: "Какой ты голубь",
     testDescription: "Узнай какой из тебя пернатый ",
     testQuestions: [
-      [
-        {
-          title: "Question 1",
-          options: [
-            { id: 1, text: "Answer 1", value: 0 },
-            { id: 2, text: "Answer 2", value: 0 },
-            { id: 3, text: "Answer 3", value: 0 },
-            { id: 4, text: "Answer 4", value: 0 },
-          ],
-        },
-        {
-          title: "Question 2",
-          options: [
-            { id: 1, text: "Answer 5", value: 0 },
-            { id: 2, text: "Answer 6", value: 0 },
-            { id: 3, text: "Answer 7", value: 0 },
-            { id: 4, text: "Answer 8", value: 0 },
-          ],
-        },
-        {
-          title: "Question 3",
-          options: [
-            { id: 1, text: "Answer 9", value: 0 },
-            { id: 2, text: "Answer 10", value: 0 },
-            { id: 3, text: "Answer 11", value: 0 },
-            { id: 4, text: "Answer 12", value: 0 },
-          ],
-        },
-        {
-          title: "Question 4",
-          options: [
-            { id: 1, text: "Answer 13", value: 0 },
-            { id: 2, text: "Answer 14", value: 0 },
-            { id: 3, text: "Answer 15", value: 0 },
-            { id: 4, text: "Answer 16", value: 0 },
-          ],
-        },
-        {
-          title: "Question 5",
-          options: [
-            { id: 1, text: "Answer 17", value: 0 },
-            { id: 2, text: "Answer 18", value: 0 },
-            { id: 3, text: "Answer 19", value: 0 },
-            { id: 4, text: "Answer 20", value: 0 },
-          ],
-        },
-        {
-          title: "Question 6",
-          options: [
-            { id: 1, text: "Answer 21", value: 0 },
-            { id: 2, text: "Answer 22", value: 0 },
-            { id: 3, text: "Answer 23", value: 0 },
-            { id: 4, text: "Answer 24", value: 0 },
-          ],
-        },
-      ],
       {
-        typeOne: "Type One",
-        typeTwo: "Type Two",
-        typeThree: "Type Three",
-        typeFore: "Type Fore",
-        typeFive: "Type Five",
-        typeSix: "Type Six",
+        title: "Вопрос 1",
+        options: [
+          { id: 1, text: "Ответ 1" },
+          { id: 2, text: "Ответ 2" },
+          { id: 3, text: "Ответ 3" },
+          { id: 4, text: "Ответ 4" },
+        ],
+      },
+      {
+        title: "Вопрос 2",
+        options: [
+          { id: 1, text: "Ответ 5" },
+          { id: 2, text: "Ответ 6" },
+          { id: 3, text: "Ответ 7" },
+          { id: 4, text: "Ответ 8" },
+        ],
+      },
+      {
+        title: "Вопрос 3",
+        options: [
+          { id: 1, text: "Ответ 9" },
+          { id: 2, text: "Ответ 10" },
+          { id: 3, text: "Ответ 11" },
+          { id: 4, text: "Ответ 12" },
+        ],
+      },
+      {
+        title: "Вопрос 4",
+        options: [
+          { id: 1, text: "Ответ 13" },
+          { id: 2, text: "Ответ 14" },
+          { id: 3, text: "Ответ 15" },
+          { id: 4, text: "Ответ 16" },
+        ],
+      },
+      {
+        title: "Вопрос 5",
+        options: [
+          { id: 1, text: "Ответ 17" },
+          { id: 2, text: "Ответ 18" },
+          { id: 3, text: "Ответ 19" },
+          { id: 4, text: "Ответ 20" },
+        ],
+      },
+      {
+        title: "Вопрос 6",
+        options: [
+          { id: 1, text: "Ответ 21" },
+          { id: 2, text: "Ответ 22" },
+          { id: 3, text: "Ответ 23" },
+          { id: 4, text: "Ответ 24" },
+        ],
       },
     ],
+    testTypes: {
+      typeOne: "Type One",
+      typeTwo: "Type Two",
+      typeThree: "Type Three",
+      typeFore: "Type Fore",
+      typeFive: "Type Five",
+      typeSix: "Type Six",
+    },
   },
   {
-    testTitle: "Какая ты колбаска",
-    testDescription: "Ты с жирком? Или с убойными специями",
+    testTitle: "Какая ты колбаска?",
+    testDescription: "Узнай какой из тебя пернатый ",
     testQuestions: [
-      [
-        {
-          title: "question title text 1",
-          options: [
-            { id: 1, text: "answer 1", value: 0 },
-            { id: 2, text: "answer 2", value: 0 },
-            { id: 3, text: "answer 3", value: 0 },
-            { id: 4, text: "answer 4", value: 0 },
-          ],
-        },
-        {
-          title: "question title text 2",
-          options: [
-            { id: 1, text: "answer 5", value: 0 },
-            { id: 2, text: "answer 6", value: 0 },
-            { id: 3, text: "answer 7", value: 0 },
-            { id: 4, text: "answer 8", value: 0 },
-          ],
-        },
-        {
-          title: "question title text 3",
-          options: [
-            { id: 1, text: "answer 9", value: 0 },
-            { id: 2, text: "answer 10", value: 0 },
-            { id: 3, text: "answer 11", value: 0 },
-            { id: 4, text: "answer 12", value: 0 },
-          ],
-        },
-        {
-          title: "question title text 4",
-          options: [
-            { id: 1, text: "answer 13", value: 0 },
-            { id: 2, text: "answer 14", value: 0 },
-            { id: 3, text: "answer 15", value: 0 },
-            { id: 4, text: "answer 16", value: 0 },
-          ],
-        },
-        {
-          title: "question title text 5",
-          options: [
-            { id: 1, text: "answer 17", value: 0 },
-            { id: 2, text: "answer 18", value: 0 },
-            { id: 3, text: "answer 19", value: 0 },
-            { id: 4, text: "answer 20", value: 0 },
-          ],
-        },
-        {
-          title: "question title text 6",
-          options: [
-            { id: 1, text: "answer 21", value: 0 },
-            { id: 2, text: "answer 22", value: 0 },
-            { id: 3, text: "answer 23", value: 0 },
-            { id: 4, text: "answer 24", value: 0 },
-          ],
-        },
-      ],
       {
-        typeOne: "Type One",
-        typeTwo: "Type Two",
-        typeThree: "Type Three",
-        typeFore: "Type Fore",
-        typeFive: "Type Five",
-        typeSix: "Type Six",
+        title: "Вопрос 1",
+        options: [
+          { id: 1, text: "Ответ 1" },
+          { id: 2, text: "Ответ 2" },
+          { id: 3, text: "Ответ 3" },
+          { id: 4, text: "Ответ 4" },
+        ],
+      },
+      {
+        title: "Вопрос 2",
+        options: [
+          { id: 1, text: "Ответ 5" },
+          { id: 2, text: "Ответ 6" },
+          { id: 3, text: "Ответ 7" },
+          { id: 4, text: "Ответ 8" },
+        ],
+      },
+      {
+        title: "Вопрос 3",
+        options: [
+          { id: 1, text: "Ответ 9" },
+          { id: 2, text: "Ответ 10" },
+          { id: 3, text: "Ответ 11" },
+          { id: 4, text: "Ответ 12" },
+        ],
+      },
+      {
+        title: "Вопрос 4",
+        options: [
+          { id: 1, text: "Ответ 13" },
+          { id: 2, text: "Ответ 14" },
+          { id: 3, text: "Ответ 15" },
+          { id: 4, text: "Ответ 16" },
+        ],
+      },
+      {
+        title: "Вопрос 5",
+        options: [
+          { id: 1, text: "Ответ 17" },
+          { id: 2, text: "Ответ 18" },
+          { id: 3, text: "Ответ 19" },
+          { id: 4, text: "Ответ 20" },
+        ],
+      },
+      {
+        title: "Вопрос 6",
+        options: [
+          { id: 1, text: "Ответ 21" },
+          { id: 2, text: "Ответ 22" },
+          { id: 3, text: "Ответ 23" },
+          { id: 4, text: "Ответ 24" },
+        ],
       },
     ],
+    testTypes: {
+      typeOne: "Type One",
+      typeTwo: "Type Two",
+      typeThree: "Type Three",
+      typeFore: "Type Fore",
+      typeFive: "Type Five",
+      typeSix: "Type Six",
+    },
   },
 ];
 export default objTest;
