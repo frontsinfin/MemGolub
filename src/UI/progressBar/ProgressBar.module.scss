@@ -1,0 +1,19 @@
+$padding: 1px;
+$height: 10px;
+.progressBarBack {
+  height: $height;
+  border-radius: 10px;
+  width: 100%;
+  border: $padding solid rgba(0, 0, 0, 0.123);
+  position: relative;
+}
+
+.progressBarFront {
+  background: linear-gradient(90deg, #8a2387, #e94057, #f27121);
+  transition: all, 0.3s;
+  height: $height;
+  border-radius: 10px;
+  position: absolute;
+  top: calc($padding - (2 * $padding));
+  left: calc($padding - (2 * $padding));
+}
