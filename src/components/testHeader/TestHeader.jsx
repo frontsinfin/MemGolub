@@ -3,7 +3,7 @@ import cl from "./TestHeader.module.css";
 import light from "../../img/ThemeIconLight.svg";
 import dark from "../../img/ThemeIconDark.svg";
 import useTheme from "../../hooks/useTheme";
-import CustomLink from "../CustomLink";
+import CustomLink from "../customLink/CustomLink";
 
 const TestHeader = () => {
   const icons = [dark, light];

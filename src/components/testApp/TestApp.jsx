@@ -5,7 +5,7 @@ import TestList from "../testList/TestList";
 import TestHeader from "../testHeader/TestHeader";
 import axios from "axios";
 import Main from "../main/Main";
-import NotFound from "../NotFound";
+import NotFound from "../notFound/NotFound";
 import SingleTest from "../singleTest/SingleTest";
 
 function TestApp() {
