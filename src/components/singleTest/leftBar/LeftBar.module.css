@@ -1,0 +1,11 @@
+.LeftBar {
+  height: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+}
+.LeftBar > img {
+  max-width: 140px;
+}

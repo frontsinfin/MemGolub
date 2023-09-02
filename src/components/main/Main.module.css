@@ -1,0 +1,6 @@
+.Container {
+  height: calc(100vh - 110px);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}

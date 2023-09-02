@@ -1,0 +1,21 @@
+.Container {
+  padding: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1439px) {
+  .Container {
+    max-width: 1090px;
+  }
+}
+@media (max-width: 1089px) {
+  .Container {
+    max-width: 740px;
+  }
+}
+
+.Body {
+  border-radius: 20px;
+  padding: 30px;
+}

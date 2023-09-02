@@ -1,0 +1,13 @@
+.progressBarBack {
+  height: 10px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.progressBarFront {
+  transition: all, 0.3s;
+  height: 10px;
+  border-radius: 10px;
+  position: absolute;
+}

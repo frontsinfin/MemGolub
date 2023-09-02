@@ -1,0 +1,39 @@
+.Container {
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  position: relative;
+  height: 70px;
+}
+.Header {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
+  font-weight: 600;
+}
+.Header > a {
+  width: 100%;
+}
+.Container > button {
+  width: 100%;
+}
+.MenuButton {
+  display: none;
+}
+.Button {
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+}
+.Button > img {
+  height: 30px;
+}
+
+@media (max-width: 739px) {
+}
+@media (min-width: 740px) {
+  /* .Header {
+    display: grid !important;
+  } */
+}

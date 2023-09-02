@@ -1,5 +1,5 @@
 import React from "react";
-import TestApp from "./components/TestApp";
+import TestApp from "./components/testApp/TestApp";
 import { ThemeProvider } from "./providers/ThemeProvider";
 import { BrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout";

@@ -1,0 +1,42 @@
+.List {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.Container {
+  padding: 30px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 280px;
+  cursor: pointer;
+}
+
+.img {
+  border-radius: 13px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 80px;
+  height: 80px;
+}
+.TitleContainer {
+  display: flex;
+  flex-direction: column;
+}
+.SubTitle {
+  margin-bottom: 10px;
+}
+.Title {
+  text-transform: uppercase;
+}
+@media (max-width: 739px) {
+  .List {
+    justify-content: center;
+  }
+  .Container {
+    width: 100%;
+    height: 70vw;
+  }
+}
