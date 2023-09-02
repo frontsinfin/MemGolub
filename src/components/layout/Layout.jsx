@@ -1,5 +1,5 @@
 import cn from "classnames";
-import useTheme from "../hooks/useTheme";
+import useTheme from "../../hooks/useTheme";
 
 const Layout = ({ children }) => {
   const { isDark } = useTheme();
