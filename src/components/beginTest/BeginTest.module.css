@@ -1,0 +1,33 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Subtitle {
+  margin-left: 2px;
+}
+.Title {
+  line-height: 1em;
+}
+.Description {
+  margin-bottom: 50px;
+}
+.Button {
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  right: 0;
+  padding: 20px 40px;
+  border-radius: 20px;
+  width: 350px;
+  height: 100px;
+  border: none;
+  &:hover {
+    transform: translate(-2px, -2px);
+  }
+}
+.Span {
+  font-size: 20px;
+}

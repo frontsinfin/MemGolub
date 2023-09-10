@@ -1,12 +1,14 @@
-import cl from "./SingleTest.module.css";
+import cl from "./QuestionsList.module.css";
 const QuestionsList = ({ activeTest, nextQuestions, clickNextQuestions }) => {
   const btnClickFunc = (id) => {
     clickNextQuestions(id);
   };
   return (
-    <section>
-      <h2>{activeTest.testQuestions[nextQuestions].title}</h2>
-      <div>
+    <section className={cl.Section}>
+      <h2 className={cl.Title}>
+        {activeTest.testQuestions[nextQuestions].title}
+      </h2>
+      <div className={cl.Container}>
         {activeTest.testQuestions[nextQuestions].options.map((item) => (
           <button
             key={item.id}

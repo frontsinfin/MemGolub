@@ -1,13 +1,20 @@
-.progressBarBack {
+.Container {
+  margin-bottom: 10px;
+}
+.Back {
   height: 10px;
   border-radius: 10px;
   width: 100%;
   position: relative;
 }
-
-.progressBarFront {
-  transition: all, 0.3s;
+.Front {
+  transition: width, 0.3s;
   height: 10px;
   border-radius: 10px;
   position: absolute;
+}
+.Counter {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
 }

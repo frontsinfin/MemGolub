@@ -1,9 +1,9 @@
 import { useState } from "react";
-import ProgressBar from "../../../UI/progressBar/ProgressBar";
-import BeginTest from "../BeginTest";
-import QuestionsList from "../QuestionsList";
+import ProgressBar from "../../UI/progressBar/ProgressBar";
+import BeginTest from "../beginTest/BeginTest";
+import QuestionsList from "../questionsList/QuestionsList";
 
-const BaseContent = ({
+const TestQuestions = ({
   activeTest,
   setNextQuestions,
   nextQuestions,
@@ -11,7 +11,6 @@ const BaseContent = ({
   setResultCounter,
 }) => {
   const [isVisible, setIsVisible] = useState(true);
-  const widthVar = (nextQuestions / activeTest.testQuestions.length) * 100;
 
   const clickNextQuestions = (id) => {
     setNextQuestions(nextQuestions + 1);
@@ -23,6 +22,7 @@ const BaseContent = ({
       }
     }
   };
+  console.log(resultCounter);
   return (
     <>
       {isVisible ? (
@@ -32,7 +32,7 @@ const BaseContent = ({
         />
       ) : (
         <div>
-          <ProgressBar widthVar={widthVar} />
+          <ProgressBar activeTest={activeTest} nextQuestions={nextQuestions} />
           <QuestionsList
             clickNextQuestions={clickNextQuestions}
             activeTest={activeTest}
@@ -44,4 +44,4 @@ const BaseContent = ({
   );
 };
 
-export default BaseContent;
+export default TestQuestions;

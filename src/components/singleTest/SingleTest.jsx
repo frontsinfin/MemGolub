@@ -1,9 +1,9 @@
 import { useState } from "react";
 import cl from "./SingleTest.module.css";
 import { useParams } from "react-router-dom";
-import TestResult from "./TestResult";
-import LeftBar from "./leftBar/LeftBar";
-import TestQuestions from "./testQuestions/TestQuestions";
+import TestResult from "../testResult/TestResult";
+import LeftBar from "../leftBar/LeftBar";
+import TestQuestions from "../testQuestions/TestQuestions";
 const SingleTest = ({ dataTest }) => {
   const [nextQuestions, setNextQuestions] = useState(0);
   const [resultCounter, setResultCounter] = useState(0);
@@ -14,7 +14,6 @@ const SingleTest = ({ dataTest }) => {
 
   return (
     <div className={cl.Container}>
-      <LeftBar activeTest={activeTest} />
       <div className={cl.BaseContent} id="accentTheme">
         {activeTest.testQuestions.length <= nextQuestions ? (
           <TestResult activeTest={activeTest} resultCounter={resultCounter} />

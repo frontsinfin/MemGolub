@@ -26,6 +26,7 @@
   flex-direction: column;
 }
 .SubTitle {
+  margin-left: 4px;
   margin-bottom: 10px;
 }
 .Title {

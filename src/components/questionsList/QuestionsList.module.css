@@ -1,0 +1,22 @@
+.Title {
+  margin-bottom: 20px;
+}
+.Container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+}
+.Button {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  padding: 0px 20px;
+  border-radius: 20px;
+  border: none;
+  height: 80px;
+  &:hover {
+    transform: translate(-2px, -2px);
+  }
+}
