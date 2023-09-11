@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MemGolub/static/css/main.29406ecc.css",
+    "main.js": "/MemGolub/static/js/main.65f70162.js",
+    "static/media/ThemeIconLight.svg": "/MemGolub/static/media/ThemeIconLight.0e6c4c0fc15687e0212482eb8ca00ddc.svg",
+    "static/media/ThemeIconDark.svg": "/MemGolub/static/media/ThemeIconDark.017997ef9340d5677d150d2cf622ff19.svg",
+    "index.html": "/MemGolub/index.html",
+    "static/media/arrow.svg": "/MemGolub/static/media/arrow.ea0699d46f609edd3a9f5d334d5ad167.svg",
+    "main.29406ecc.css.map": "/MemGolub/static/css/main.29406ecc.css.map",
+    "main.65f70162.js.map": "/MemGolub/static/js/main.65f70162.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29406ecc.css",
+    "static/js/main.65f70162.js"
+  ]
+}
