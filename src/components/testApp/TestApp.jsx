@@ -11,9 +11,11 @@ import SingleTest from "../singleTest/SingleTest";
 function TestApp() {
   const [dataTest, setDataTest] = useState();
   useEffect(() => {
-    axios.get(`http://localhost:3001/dataBase`).then((response) => {
-      setDataTest(response.data);
-    });
+    axios
+      .get(`https://64a04699ed3c41bdd7a72a2a.mockapi.io/dataBase`)
+      .then((response) => {
+        setDataTest(response.data);
+      });
   }, []);
   if (!dataTest) return null;
 
