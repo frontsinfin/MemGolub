@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+:root {
+  --bg-light: gold;
+  --accent-light: #ffffff;
+  --color-light: #555555;
+  --border-light: gold;
+  --active-light: gold;
+  --back-light: #f1f1f1;
+
+  --bg-dark: #202020;
+  --accent-dark: #303030;
+  --color-dark: #ffffff;
+  --border-dark: #202020;
+  --active-dark: #9966ff;
+  --back-dark: #3b3b3b;
+}
+
+* {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Tenor Sans", sans-serif;
+}
+body {
+  font-size: 16px;
+}
+a,
+button {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.1s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  &:hover {
+    transform: translate(-2px, -2px);
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.8em;
+  line-height: 1.2em;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1em;
+}
+
+/* LAYOUT */
+.layout {
+  height: 100vh;
+  background-color: var(--bg-light);
+  overflow: auto;
+}
+.layout.dark {
+  background-color: var(--bg-dark);
+}
+
+/* ACCENT */
+.layout #accentTheme {
+  background-color: var(--accent-light);
+  color: var(--color-light);
+  border: 2px var(--border-light) solid;
+  border-radius: 20px;
+}
+.layout.dark #accentTheme {
+  background-color: var(--accent-dark);
+  color: var(--color-dark);
+  border: 2px var(--border-dark) solid;
+}
+
+/* Indicator */
+.layout #themeIndicator {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  background-color: var(--bg-light);
+}
+.layout.dark #themeIndicator {
+  background-color: var(--bg-dark);
+}
+
+.layout #themeBar {
+  background-color: var(--active-light);
+}
+.layout.dark #themeBar {
+  background-color: var(--active-dark);
+}
+
+.layout #themeBack {
+  background-color: var(--back-light);
+}
+.layout.dark #themeBack {
+  background-color: var(--back-dark);
+}
